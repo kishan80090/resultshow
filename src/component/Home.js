@@ -5,7 +5,7 @@ function Home() {
 
     return(
         <div className="home" >
-            <h1>||     Welcome     ||</h1>
+            <h1 style={{color:"red"}} >||  _____Welcome_____  ||</h1>
             <div className="button-container" >
 
         <Link to="/ques">
@@ -19,6 +19,18 @@ function Home() {
         
         <Link to="/phython">
         <button className="home-button"><strong>Phython</strong></button>
+        </Link>
+
+        <Link to="/html">
+        <button className="home-button"><strong>HTML</strong></button>
+        </Link>
+
+        <Link to="/css">
+        <button className="home-button"><strong>CSS</strong></button>
+        </Link>
+
+        <Link to="/sql">
+        <button className="home-button"><strong>SQL</strong></button>
         </Link>
 
 </div>
