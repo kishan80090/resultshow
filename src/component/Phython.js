@@ -10,7 +10,7 @@ function Phython() {
     const [showFirework, setShowFirework] = useState(false);
 
     useEffect(() => {
-        show(); // Auto-start quiz on load
+        show(); 
     }, []);
 
     const show = () => {
