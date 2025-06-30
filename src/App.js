@@ -6,6 +6,9 @@ import Phython from './component/Phython';
 import Htm from './component/Htm';
 import Csa from './component/Csa';
 import Sq from './component/Sq';
+import Maths from './component/Maths';
+import Techology from './component/Techology';
+import Flutter from './component/Flutter';
 import './App.css';
 
 
@@ -21,9 +24,11 @@ function App() {
     <Route path="/html" element={<Htm/>}/>
     <Route path="/css" element={<Csa/>}/>
     <Route path="/sql" element={<Sq/>}/>
+    <Route path="/maths" element={<Maths/>}/>
+    <Route path="/techo" element={<Techology/>}/>
+    <Route path="/flutter" element={<Flutter/>}/>
   </Routes>
 </Router>
-
     </div>
   );
 }

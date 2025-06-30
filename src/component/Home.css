@@ -4,6 +4,7 @@
   border-radius: 8px;
   font-size: 17px;     
   cursor: pointer;
+  background-color: black;
   border: 1px solid #4CAF50;
   color: #f9f9f9;
   transition: all 0.3s ease;
@@ -21,6 +22,157 @@
 }
 
 .home-button:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+.home-button1 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button1:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button2 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color:blue;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button2:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button3 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color:green;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button3:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button4 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color: goldenrod;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button4:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button5 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color: aqua;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button5:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button6 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color:brown;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button6:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button7 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color:deeppink;
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button7:hover {
+  transform: translateY(-2px);
+  background-color: #45a049;
+}
+
+.home-button8 {
+  background-color: #4CAF50;
+  padding: 14px 20px;        
+  border-radius: 8px;
+  font-size: 17px;     
+  cursor: pointer;
+  background-color:rgb(17, 78, 44);
+  border: 1px solid #4CAF50;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+  min-width: 110px;           
+  text-align: center;
+  white-space: nowrap;
+}
+.home-button8:hover {
   transform: translateY(-2px);
   background-color: #45a049;
 }
