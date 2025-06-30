@@ -5,7 +5,7 @@ function Home() {
 
     return(
         <div className="home" >
-            <h1 style={{color:"red"}} >||🤔  _____Welcome_____  🤔||</h1>
+            <h1 style={{color:"red"}} >||🤔  __Welcome__  🤔||</h1>
             <div className="button-container" >
 
         <Link to="/ques">
