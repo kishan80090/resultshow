@@ -116,7 +116,9 @@ function Maths() {
 
             {quizCompleted && (
                 <>
+                
                     <br />
+                    <h1 style={{color:"red"}} ><i>Final Result</i></h1>
                     <table border="1" className="summary-table">
                         <thead>
                             <tr>
@@ -129,11 +131,12 @@ function Maths() {
                         </thead>
                         <tbody>
                             {question.map((q, index) => (
+                                
                                 <tr key={index}>
-                                    <td>{q.ques_no}</td>
-                                    <td>{q.question}</td>
-                                    <td>{q.answer ? q[q.answer] : "Not Answered"}</td>
-                                    <td>{q[q.correct]}</td>
+                                    <td style={{background:"pink",color:"red"}}>{q.ques_no}</td>
+                                    <td style={{background:"gray"}} >{q.question}</td>
+                                    <td style={{background:"lightgreen"}} >{q.answer ? q[q.answer] : "Not Answered"}</td>
+                                    <td style={{background:"yellow"}} >{q[q.correct]}</td>
                                     <td style={{ color: q.answer === q.correct ? "green" : "red" }}>
                                         {q.answer === q.correct ? "✔ Correct" : "✘ Wrong"}
                                     </td>
