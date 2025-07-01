@@ -131,10 +131,10 @@ function Techology() {
                         <tbody>
                             {question.map((q, index) => (
                                 <tr key={index}>
-                                    <td>{q.ques_no}</td>
-                                    <td>{q.question}</td>
-                                    <td>{q.answer ? q[q.answer] : "Not Answered"}</td>
-                                    <td>{q[q.correct]}</td>
+                                    <td style={{color:"green"}} >{q.ques_no}</td>
+                                    <td style={{color:"red"}} >{q.question}</td>
+                                    <td style={{color:"green"}} >{q.answer ? q[q.answer] : "Not Answered"}</td>
+                                    <td style={{color:"blue"}} >{q[q.correct]}</td>
                                     <td style={{ color: q.answer === q.correct ? "green" : "red" }}>
                                         {q.answer === q.correct ? "✔ Correct" : "✘ Wrong"}
                                     </td>
